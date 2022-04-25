@@ -1,16 +1,16 @@
 const textConfig = {
   text1: "Hé lô bé Chang cụa Anh",
-  text2: "Anh mún hỏi bé, phải trả lời thật lòng nghe khum...",
+  text2: "Anh mún hỏi bé, phải trả lời thật lòng nha...",
   text3: "Bé có iu anh hơm?",
   text4: "Giả vờ từ chối điii !!!",
   text5: "Khum :((",
-  text6: "Yêu ơi là yêu <3",
+  text6: "Yêu ơi là yêu moa moa",
   text7: "Lý do bé iu anhhh",
   text8: "Gửi cho Anhhh <3",
-  text9: "Vì cu anh bự 17cm >.<",
+  text9: "Vì anh đeeptry và chiều em nè",
   text10: "ỏ iu papi nắm nun",
   text11:
-    "Tối ni cho anh mukbang nha hí hí",
+    "Tối nay đón bae đi chơi nhé!",
   text12: "Okii lunn <3",
 };
 
@@ -47,7 +47,7 @@ $(document).ready(function () {
 
   // switch button position
   function switchButton() {
-    var audio = new Audio("sound/duck.mp3");
+    var audio = new Audio("chimsau.mp3");
     audio.play();
     var leftNo = $("#no").css("left");
     var topNO = $("#no").css("top");
@@ -60,8 +60,7 @@ $(document).ready(function () {
   }
   // move random button póition
   function moveButton() {
-    var audio = new Audio("sound/duck.mp3");
-    audio.play();
+    
     if (screen.width <= 600) {
       var x = Math.random() * 300;
       var y = Math.random() * 500;
